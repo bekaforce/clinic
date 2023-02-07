@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 5Rag^ycn
+    platform: postgres
+  jpa:
+    generate-ddl: true
+    database: POSTGRESQL
+
+server:
+  servlet:
+    context-path: /clinic/api
